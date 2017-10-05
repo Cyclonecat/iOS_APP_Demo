@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB0D4F141F4C3DB900880A11 /* 小电.gpx in Resources */ = {isa = PBXBuildFile; fileRef = CB0D4F131F4C3DB900880A11 /* 小电.gpx */; };
 		CB2372171EE6C72A002898FF /* 电科大厦.gpx in Resources */ = {isa = PBXBuildFile; fileRef = CB2372161EE6C72A002898FF /* 电科大厦.gpx */; };
 		CB3733561EE68F81002D2E2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3733551EE68F81002D2E2C /* main.m */; };
 		CB3733591EE68F81002D2E2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3733581EE68F81002D2E2C /* AppDelegate.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB0D4F131F4C3DB900880A11 /* 小电.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "小电.gpx"; path = "../../../../Downloads/小电.gpx"; sourceTree = "<group>"; };
 		CB2372161EE6C72A002898FF /* 电科大厦.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "电科大厦.gpx"; path = "../../../../Downloads/Aria2/电科大厦.gpx"; sourceTree = "<group>"; };
 		CB3733511EE68F81002D2E2C /* 打卡.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "打卡.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3733551EE68F81002D2E2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		CB3733481EE68F80002D2E2C = {
 			isa = PBXGroup;
 			children = (
+				CB0D4F131F4C3DB900880A11 /* 小电.gpx */,
 				CB2372161EE6C72A002898FF /* 电科大厦.gpx */,
 				CB3733531EE68F81002D2E2C /* 打卡 */,
 				CB37336D1EE68F81002D2E2C /* 打卡Tests */,
@@ -252,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB0D4F141F4C3DB900880A11 /* 小电.gpx in Resources */,
 				CB2372171EE6C72A002898FF /* 电科大厦.gpx in Resources */,
 				CB3733641EE68F81002D2E2C /* LaunchScreen.storyboard in Resources */,
 				CB3733611EE68F81002D2E2C /* Assets.xcassets in Resources */,
