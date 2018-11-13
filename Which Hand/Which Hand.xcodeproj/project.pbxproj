@@ -302,14 +302,16 @@
 		CA9FAC05173B560D00DEA73A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Xin Li (J9257CUT8J)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99M4JMZ447;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Teslameter/Which Hand-Prefix.pch";
 				INFOPLIST_FILE = "Teslameter/Which Hand-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.51work6.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Which Hand";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -317,14 +319,16 @@
 		CA9FAC06173B560D00DEA73A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Xin Li (J9257CUT8J)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99M4JMZ447;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Teslameter/Which Hand-Prefix.pch";
 				INFOPLIST_FILE = "Teslameter/Which Hand-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.51work6.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Which Hand";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
